@@ -51,3 +51,20 @@ export const Btn = styled.button`
 `;
 
 export const SectionImage = styled.div``;
+
+export const Picture = styled.img`
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+`;
+
+export const Bg = styled.div`
+    position: relative;
+    left: 17rem;
+    top: 18rem;
+    width: 550px;
+    height: 220px;
+    color: blue;
+    background-color: #5368DF;
+    border-radius: 80px 0 0 100px;
+`

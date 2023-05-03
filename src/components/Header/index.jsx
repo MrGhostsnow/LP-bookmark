@@ -5,7 +5,10 @@ import {
     Subtitle,
     SectionBtns,
     Btn,
-    SectionImage
+    SectionImage,
+    Picture,
+    Bg
+
 } from './styles'
 import hero from '../../assets/illustration-hero.svg'
 
@@ -21,7 +24,8 @@ function Header() {
                 </SectionBtns>
             </SectionText>
             <SectionImage>
-                <img src={hero} alt='hero' />
+                <Bg></Bg>
+                <Picture src={hero} alt='hero' />
             </SectionImage>
         </ContainerHeader>
     )
