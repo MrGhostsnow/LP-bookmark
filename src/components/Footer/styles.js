@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
-export const ContainerNav = styled.div`
+
+export const ContainerFooter = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50rem;
-`
+    justify-content: space-between;
+    background-color:hsl(229, 31%, 21%);
+
+`;
 
 export const SectionBtns = styled.div`
     display: flex;
+    align-items: center;
+    margin-left: 12rem;
 `
 
 export const ListBtns = styled.ul`
@@ -27,9 +31,14 @@ export const Btn = styled.li`
     height: 35px;
     width: 85px;
     border-radius: 6px;
-
-    &.login{
-        color: #fff;
-        background-color: hsl(0, 94%, 66%);
-    }
+    color: #fff;
 `
+
+export const SectionIcons = styled.div`
+    margin-right: 8rem;
+    display: flex;
+    gap: 2rem;
+`;
+
+export const Facebook = styled.img``;
+export const Twitter = styled.img``;

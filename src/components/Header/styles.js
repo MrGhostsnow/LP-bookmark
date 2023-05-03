@@ -7,7 +7,7 @@ export const ContainerHeader = styled.div`
 export const SectionText = styled.div`
     width: 50%;
     height: 400px;
-    margin-left: 8rem;
+    margin-left: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,13 +54,13 @@ export const SectionImage = styled.div``;
 
 export const Picture = styled.img`
     position: absolute;
-    right: 3rem;
+    right: 7rem;
     top: 8rem;
 `;
 
 export const Bg = styled.div`
     position: relative;
-    left: 17rem;
+    left: 12.5rem;
     top: 18rem;
     width: 550px;
     height: 220px;

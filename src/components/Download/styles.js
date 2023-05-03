@@ -39,11 +39,23 @@ export const Card = styled.div`
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 350px;
+    height: 330px;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 6px;
+
+    &.chrome{
+        margin-top: -5rem;
+    }
+
+    &.firefox{
+        margin-top: -3rem;
+    }
+
+    &.opera{
+        margin-top: -1rem;
+    }
 `;
 
 export const Picture = styled.img``;

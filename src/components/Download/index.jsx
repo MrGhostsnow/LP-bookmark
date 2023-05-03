@@ -24,21 +24,21 @@ function Download() {
                 <Subtitle>We've got more browsers in the pipeline. Please do let us know if you've got a favorite you'd like us to prioritize</Subtitle>
             </SectionText>
             <SectionCard>
-                <Card>
+                <Card className='chrome'>
                     <Picture src={Chrome} width={75} />
                     <TitleCard>Add to Chrome</TitleCard>
                     <SubtitleCard>Minimum version 62</SubtitleCard>
                     <img src={Dots} alt='' />
                     <Button>Add & Install Extension</Button>
                 </Card>
-                <Card>
+                <Card className='firefox'>
                     <Picture src={Firefox} width={75} />
                     <TitleCard>Add to Firefox</TitleCard>
                     <SubtitleCard>Minimum version 55</SubtitleCard>
                     <img src={Dots} alt='' />
                     <Button>Add & Install Extension</Button>
                 </Card>
-                <Card>
+                <Card className='opera'>
                     <Picture src={Opera} width={75} />
                     <TitleCard>Add to Opera</TitleCard>
                     <SubtitleCard>Minimum version 46</SubtitleCard>
