@@ -31,7 +31,7 @@ export const Subtitle = styled.p`
     color: hsl(229, 8%, 60%);
 
     @media screen and (max-width: 542px){
-        width: 70%;
+        width: 90%;
     }
 `;
 
@@ -67,6 +67,10 @@ export const Option = styled.li`
         border-bottom: 3px solid hsl(0, 94%, 66%);
         width: 150px;
     }
+    @media screen and (max-width: 542px){
+        text-align: center;
+    }
+
 `;
 
 export const SectionChoice = styled.div`
@@ -91,7 +95,7 @@ export const SectionImage = styled.div`
 export const Picture = styled.img`
     position: absolute;
     top: 60rem;
-    left: 16rem;    
+    left: 8rem;    
 
     @media screen and (max-width: 1024px){
         top: 90rem;
@@ -165,10 +169,11 @@ export const SectionLabel = styled.div`
     }
 
     @media screen and (max-width: 542px){
-        margin-top: 12rem;
+        margin-top: 8rem;
         text-align: center;
         align-items: center;
         margin-left: 0rem;
+        width: 60%;
     }
 `;
 

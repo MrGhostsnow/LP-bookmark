@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import RubikFont from "../../Fonts";
 
 export const ContainerHeader = styled.div`
     display: flex;
@@ -40,6 +41,7 @@ export const Title = styled.h1`
 
     @media screen and (max-width: 542px){
         width: 400px;
+        font-size: 32px;
     }
 `;
 
@@ -51,6 +53,8 @@ export const Subtitle = styled.p`
 
     @media screen and (max-width: 542px){
         width: 400px;
+        font-size: 16px;
+        margin-top: 1rem;
     }
 `;
 
@@ -72,6 +76,8 @@ export const Btn = styled.button`
     height: 40px;
     border-radius: 6px;
     border: none;
+    font-weight: 600;
+    font-size: 12px;
 
     &.primary{
         background-color: hsl(231, 69%, 60%);
@@ -84,7 +90,8 @@ export const Btn = styled.button`
     }
 `;
 
-export const SectionImage = styled.div``;
+export const SectionImage = styled.div`
+`;
 
 export const Picture = styled.img`
     position: absolute;
@@ -101,7 +108,7 @@ export const Picture = styled.img`
 
     @media screen and (max-width: 542px){
         width: 400px;
-        right: 0.5rem;
+        right: 0.8rem;
     }
 `;
 

@@ -58,6 +58,7 @@ export const Btn = styled.li`
     width: 85px;
     border-radius: 6px;
     color: #fff;
+    font-weight: 700;
 `
 
 export const SectionIcons = styled.div`
