@@ -5,6 +5,22 @@ export const ContainerNav = styled.div`
     align-items: center;
     justify-content: center;
     gap: 50rem;
+
+    @media screen and (max-width: 1440px){
+        gap: 22rem;
+    }
+
+    @media screen and (max-width: 1024px){
+        gap: 12rem;
+    }
+
+    @media screen and (max-width: 768px){
+        gap: 2rem;
+    }
+
+    @media screen and (max-width: 542px){
+        display: none;
+    }
 `
 
 export const SectionBtns = styled.div`

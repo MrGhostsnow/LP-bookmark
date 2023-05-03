@@ -2,6 +2,13 @@ import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
     display: flex;
+
+    @media screen and (max-width: 1024px){
+        flex-direction: column-reverse;
+        height: 800px;
+        align-items: center;
+    }
+    
 `;
 
 export const SectionText = styled.div`
@@ -11,13 +18,29 @@ export const SectionText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
+    @media screen and (max-width: 1024px){
+        margin-left: 0rem;
+    }
+
+    @media screen and (max-width: 768px){
+        align-items: center;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+    }
 `;
 
 export const Title = styled.h1`
     width: 500px;
     font-size: 46px;
     color: hsl(229, 31%, 21%);
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+    }
 `;
 
 export const Subtitle = styled.p`
@@ -25,12 +48,23 @@ export const Subtitle = styled.p`
     font-size: 20px;
     color: hsl(229, 8%, 60%);
     margin-top: -1rem;
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+    }
 `;
 
 export const SectionBtns = styled.div`
     display: flex;
     justify-content: space-between;
     width: 35%;
+
+    @media screen and (max-width: 1024px){
+        width: 100%;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const Btn = styled.button`
@@ -56,6 +90,19 @@ export const Picture = styled.img`
     position: absolute;
     right: 7rem;
     top: 8rem;
+
+    @media screen and (max-width: 1024px){
+        right: 11.5rem;
+    }
+
+    @media screen and (max-width: 768px){
+        right: 2.5rem;
+    }
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+        right: 0.5rem;
+    }
 `;
 
 export const Bg = styled.div`
@@ -67,4 +114,13 @@ export const Bg = styled.div`
     color: blue;
     background-color: #5368DF;
     border-radius: 80px 0 0 100px;
+
+    @media screen and (max-width: 1440px){
+        left: 0.5rem;
+    }
+
+    @media screen and (max-width: 1024px){
+        display: none;
+    }
 `
+

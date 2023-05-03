@@ -6,6 +6,10 @@ export const ContainerDownload = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 768px){
+        height: 1400px;
+    }
 `;
 
 export const SectionText = styled.div`
@@ -13,6 +17,11 @@ export const SectionText = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 768px){
+        margin-top: -3rem;
+        margin-bottom: 6rem;
+    }
 `;
 
 export const Title = styled.h1`
@@ -25,6 +34,10 @@ export const Subtitle = styled.p`
     text-align: center;
     font-size: 18px;
     color: hsl(229, 8%, 60%);
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+    }
 `;
 
 export const SectionCard = styled.div`
@@ -33,6 +46,12 @@ export const SectionCard = styled.div`
     align-items: center;
     width: 1000px;
     height: 500px;
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        height: 1000px;
+        width: auto;
+    }
 `;
 
 export const Card = styled.div`
@@ -55,6 +74,10 @@ export const Card = styled.div`
 
     &.opera{
         margin-top: -1rem;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 250px;
     }
 `;
 

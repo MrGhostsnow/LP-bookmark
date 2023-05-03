@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-
-
 export const ContainerFeatures = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10rem;
     height: 800px;
+
+    @media screen and (max-width: 542px){
+        height: 1200px;
+    }
 `
 
 export const SectionText = styled.div`
@@ -27,6 +29,10 @@ export const Subtitle = styled.p`
     text-align: center;
     font-size: 18px;
     color: hsl(229, 8%, 60%);
+
+    @media screen and (max-width: 542px){
+        width: 70%;
+    }
 `;
 
 export const SectionOptions = styled.div`
@@ -39,6 +45,14 @@ export const Options = styled.ul`
     align-items: center;
     list-style-type: none;
     width: 600px;
+
+    @media screen and (max-width: 542px){
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 300px;
+        justify-content: center;
+        padding: 0;
+    }
 `;
 
 
@@ -59,6 +73,15 @@ export const SectionChoice = styled.div`
     display: flex;
     align-items: center;
     height: 400px;
+
+    @media screen and (max-width: 768px){
+        width: 750px;
+    }
+
+    @media screen and (max-width: 542px){
+        flex-direction: column;
+        width: 400px;
+    }
 `;
 
 export const SectionImage = styled.div`
@@ -69,6 +92,23 @@ export const Picture = styled.img`
     position: absolute;
     top: 60rem;
     left: 16rem;    
+
+    @media screen and (max-width: 1024px){
+        top: 90rem;
+        left: 8rem; 
+        width: 400px;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 350px;
+        left: 6rem; 
+    }
+
+    @media screen and (max-width: 542px){
+        width: 320px;
+        left: 4rem; 
+        top: 90rem;
+    }
 `;
 
 export const Bg = styled.div`
@@ -80,6 +120,17 @@ export const Bg = styled.div`
     color: blue;
     background-color: #5368DF;
     border-radius: 0px 80px 100px 0px;
+
+    @media screen and (max-width: 768px){
+        width: 500px;
+        height: 280px;
+    }
+
+    @media screen and (max-width: 542px){
+        width: 420px;
+        height: 200px;
+        left: -7rem;
+    }
 `
 
 export const Bg1 = styled.div`
@@ -91,13 +142,34 @@ export const Bg1 = styled.div`
     color: blue;
     background-color: #5368DF;
     border-radius: 0px 80px 100px 0px;
+
+    @media screen and (max-width: 542px){
+        width: 420px;
+        height: 200px;
+    }
 `
 
 export const SectionLabel = styled.div`
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 50%
+    width: 50%;
+
+    @media screen and (max-width: 1024px){
+        margin-left: 4rem;
+    }
+
+    @media screen and (max-width: 768px){
+        margin-left: 6rem;
+        width: 35%;
+    }
+
+    @media screen and (max-width: 542px){
+        margin-top: 12rem;
+        text-align: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
 `;
 
 export const Button = styled.button`
@@ -113,5 +185,13 @@ export const SubtitleLabel = styled.p`
     width: 50%;
     font-size: 18px;
     color: hsl(229, 8%, 60%);
-    margin-top: -0.2rem
+    margin-top: -0.2rem;
+
+    @media screen and (max-width: 768px){
+        width: 60%;
+    }
+
+    @media screen and (max-width: 542px){
+        width: 300px;
+    }
 `

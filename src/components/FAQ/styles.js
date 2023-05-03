@@ -25,6 +25,10 @@ export const Subtitle = styled.p`
     text-align: center;
     font-size: 18px;
     color: hsl(229, 8%, 60%);
+
+    @media screen and (max-width: 542px){
+        width: 400px;
+    }
 `;
 
 export const SectionFAQ = styled.div`
@@ -43,6 +47,10 @@ export const Faq = styled.div`
 
     &.first{
         border-top: 1px solid hsl(229, 8%, 60%);
+    }
+
+    @media screen and (max-width: 542px){
+        width: 400px;
     }
 `;
 

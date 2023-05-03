@@ -17,7 +17,6 @@ function Footer() {
         <ContainerFooter>
             <SectionBtns>
                 <img src={logo} alt='logo' height={25} />
-
                 <ListBtns>
                     <Btn>FEATURES</Btn>
                     <Btn>PRICING</Btn>
