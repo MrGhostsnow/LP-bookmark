@@ -61,7 +61,8 @@ export const Subtitle = styled.p`
 export const SectionBtns = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 45%;
+    gap: 2rem;
 
     @media screen and (max-width: 1024px){
         width: 100%;
